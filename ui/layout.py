@@ -3,7 +3,7 @@ Lumina Studio - UI Layout
 界面布局定义
 """
 
-import gradio as gr
+import gradio as gr     # type:ignore
 
 from config import ColorSystem
 from utils import Stats
