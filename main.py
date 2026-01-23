@@ -18,9 +18,15 @@ import webbrowser
 import socket
 import gradio as gr     # type:ignore
 from ui.layout import create_app
-from core.tray import LuminaTray
 from ui.styles import CUSTOM_CSS
 
+HAS_DISPLAY = os.environ.get("DISPLAY") or os.name == "nt"
+if HAS_DISPLAY:
+    try:
+        from core.tray import LuminaTray
+    except ImportError:
+        HAS_DISPLAY = False
+        
 def find_available_port(start_port=7860, max_attempts=1000):
     import socket
     for i in range(max_attempts):
@@ -56,7 +62,7 @@ if __name__ == "__main__":
     try:
         app.launch(
             inbrowser=False,
-            server_name="127.0.0.1",
+            server_name="0.0.0.0",
             server_port=PORT,
             show_error=True,
             prevent_thread_lock=True,
