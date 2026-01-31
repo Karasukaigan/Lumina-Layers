@@ -114,7 +114,7 @@ def create_app():
             updates = []
             
             # 1. Update language button
-            updates.append(gr.update(value=I18n.get('lang_btn_zh' if new_lang == "zh" else 'lang_btn_en', new_lang)))
+            updates.append(gr.update(value=I18n.get('lang_btn_zh' if new_lang == "en" else 'lang_btn_en', new_lang)))
             
             # 2. Update header
             updates.append(gr.update(value=_get_header_html(new_lang)))
