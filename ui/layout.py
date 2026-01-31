@@ -48,7 +48,7 @@ def create_app():
                 gr.HTML("""
                 <div class="header-banner">
                     <h1>✨ Lumina Studio</h1>
-                    <p>Multi-Material 3D Print Color System | v1.4.1</p>
+                    <p>Multi-Material 3D Print Color System | v1.4.2</p>
                 </div>
                 """)
             with gr.Column(scale=1, min_width=120):
@@ -459,7 +459,7 @@ def create_about_tab():
     """创建关于Tab"""
     with gr.TabItem("ℹ️ 关于 About", id=3):
         gr.Markdown("""
-        ## 🌟 Lumina Studio v1.4.1
+        ## 🌟 Lumina Studio v1.4.2
         
         **多材料3D打印色彩系统** | Multi-Material 3D Print Color System
         
@@ -490,6 +490,14 @@ def create_about_tab():
         - **KD-Tree 色彩匹配** Color Matching
         - **RLE 几何生成** Run-Length Encoding for Geometry
         - **K-Means 色彩量化** Color Quantization for Detail Preservation
+        
+        ---
+        
+        ### 📝 v1.4.2 更新日志 Changelog
+        
+        #### 🐛 Bug修复 Bug Fixes
+        - 修复了一些已知问题 Fixed some known issues
+        - 优化了性能和稳定性 Improved performance and stability
         
         ---
         
@@ -575,7 +583,7 @@ def create_about_tab():
         
         <div style="text-align:center; color:#888; margin-top:20px;">
             Made with ❤️ by [MIN]<br>
-            v1.4.1 | 2025
+            v1.4.2 | 2025
         </div>
         """)
 
