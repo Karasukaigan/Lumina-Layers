@@ -8,7 +8,7 @@ Physics-Based Multi-Material FDM Color System
 
 ## Project Status
 
-**Current Version**: v1.5.0  
+**Current Version**: v1.5.1  
 **License**: CC BY-NC-SA 4.0 (with Commercial Exemption)  
 **Nature**: Non-profit independent implementation, open-source community project
 
@@ -99,7 +99,7 @@ You **do NOT need to ask for permission**. You automatically have the right to:
 
 ---
 
-Lumina Studio v1.5.0 integrates three major modules into a unified interface:
+Lumina Studio v1.5.1 integrates three major modules into a unified interface:
 
 ### 📐 Module 1: Calibration Generator
 
@@ -134,6 +134,14 @@ Converts images into printable 3D models using calibrated data.
 - **Structure Options**: Double-sided (keychain) or Single-sided (relief) modes
 - **Smart Background Removal**: Automatic transparency detection with adjustable tolerance
 - **Correct 3MF Naming**: Objects are named by color (e.g., "Cyan", "Magenta") instead of "geometry_0" for easy slicer identification
+
+---
+
+## What's New in v1.5.1 🚀
+
+### Version Update
+
+- ✅ **Version Bump** - Updated to v1.5.1 for consistency
 
 ---
 

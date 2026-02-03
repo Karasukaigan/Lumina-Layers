@@ -18,8 +18,8 @@ class I18n:
             'en': '✨ Lumina Studio'
         },
         'app_subtitle': {
-            'zh': '多材料3D打印色彩系统 | v1.5.0',
-            'en': 'Multi-Material 3D Print Color System | v1.5.0'
+            'zh': '多材料3D打印色彩系统 | v1.5.1',
+            'en': 'Multi-Material 3D Print Color System | v1.5.1'
         },
         'lang_btn_zh': {
             'zh': '🌐 中文',
@@ -446,7 +446,7 @@ class I18n:
         
         # ==================== About Page Content ====================
         'about_content': {
-            'zh': """## 🌟 Lumina Studio v1.5.0
+            'zh': """## 🌟 Lumina Studio v1.5.1
 
 **多材料3D打印色彩系统**
 
@@ -477,6 +477,13 @@ class I18n:
 - **KD-Tree 色彩匹配**
 - **RLE 几何生成**
 - **K-Means 色彩量化**
+
+---
+
+### 📝 v1.5.1 更新日志
+
+#### 🔄 版本更新
+- 更新版本号至 v1.5.1
 
 ---
 
@@ -548,10 +555,10 @@ class I18n:
 
 <div style="text-align:center; color:#888; margin-top:20px;">
     Made with ❤️ by [MIN]<br>
-    v1.5.0 | 2025
+    v1.5.1 | 2025
 </div>
 """,
-            'en': """## 🌟 Lumina Studio v1.5.0
+            'en': """## 🌟 Lumina Studio v1.5.1
 
 **Multi-Material 3D Print Color System**
 
@@ -582,6 +589,13 @@ Accurate color reproduction for FDM printing
 - **KD-Tree Color Matching**
 - **RLE Geometry Generation**
 - **K-Means Color Quantization**
+
+---
+
+### 📝 v1.5.1 Changelog
+
+#### 🔄 Version Update
+- Updated version number to v1.5.1
 
 ---
 
@@ -653,7 +667,7 @@ Special thanks to:
 
 <div style="text-align:center; color:#888; margin-top:20px;">
     Made with ❤️ by [MIN]<br>
-    v1.5.0 | 2025
+    v1.5.1 | 2025
 </div>
 """
         },
